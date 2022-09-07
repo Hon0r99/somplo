@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input::file-selector-button {
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  background: rgb(87, 194, 226);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(77, 169, 197);
+  }
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  background: rgb(87, 194, 226);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(77, 169, 197);
+  }
+
+  &:disabled {
+    background: rgb(161, 176, 180);
+  }
+}
